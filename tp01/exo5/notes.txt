@@ -1,0 +1,7 @@
+Test personnel : 35 12 47 90 23 68 15 41
+(8 hauteurs, le maximum 90 n'est ni la première ni la dernière valeur)
+Hauteur maximale attendue : 90
+Indice attendu : 3
+Résultat obtenu :
+Hauteur : 90
+Indice : 3
