@@ -1,0 +1,16 @@
+Élément de syntaxe Rust recherché :
+L'expression match avec des motifs de plage et des gardes :
+  x if x >= 0 => ...   (garde "if" pour valeur >= 0)
+  -5..=-1     => ...   (plage inclusive ..= pour -5 <= valeur < 0)
+  _           => ...   (cas par défaut : valeur < -5)
+Test personnel :
+7 -3 -12 0 -5 -6 10 -1
+(normales : 7 0 10 / faibles : -3 -5 -1 / fortes : -12 -6)
+Résultat attendu :
+Mesures normales : 3
+Anomalies faibles : 3
+Anomalies fortes : 2
+Résultat obtenu :
+Mesures normales : 3
+Anomalies faibles : 3
+Anomalies fortes : 2
