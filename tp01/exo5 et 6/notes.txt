@@ -1,3 +1,5 @@
+--- Exercice 5 : programme de base ---
+
 Test personnel : 35 12 47 90 23 68 15 41
 (8 hauteurs, le maximum 90 n'est ni la première ni la dernière valeur)
 Hauteur maximale attendue : 90
@@ -5,3 +7,13 @@ Indice attendu : 3
 Résultat obtenu :
 Hauteur : 90
 Indice : 3
+
+--- Exercice 6 : évolution du programme ---
+
+Test : 10 50 20 80 30
+Moyenne attendue : (10 + 50 + 20 + 80 + 30) / 5 = 190 / 5 = 38
+Moyenne obtenue :
+Hauteur minimale : 10
+Hauteur maximale : 80
+Indice de la hauteur maximale : 3
+Hauteur moyenne : 38.00
