@@ -10,6 +10,20 @@ def hauteur_maximale(hauteurs):
     return hauteurs[indice_max], indice_max
 
 
+def hauteur_minimale(hauteurs):
+    """Renvoie la plus petite hauteur."""
+    minimum = hauteurs[0]
+    for h in hauteurs[1:]:
+        if h < minimum:
+            minimum = h
+    return minimum
+
+
+def hauteur_moyenne(hauteurs):
+    """Renvoie la moyenne des hauteurs."""
+    return sum(hauteurs) / len(hauteurs)
+
+
 def main():
     # Hauteurs passees en arguments, sinon lues sur l'entree standard
     valeurs = sys.argv[1:] if len(sys.argv) > 1 else sys.stdin.read().split()
@@ -20,8 +34,10 @@ def main():
         return
 
     hauteur, indice = hauteur_maximale(hauteurs)
-    print(f"Hauteur : {hauteur}")
-    print(f"Indice : {indice}")
+    print(f"Hauteur minimale : {hauteur_minimale(hauteurs)}")
+    print(f"Hauteur maximale : {hauteur}")
+    print(f"Indice de la hauteur maximale : {indice}")
+    print(f"Hauteur moyenne : {hauteur_moyenne(hauteurs):.2f}")
 
 
 if __name__ == "__main__":
