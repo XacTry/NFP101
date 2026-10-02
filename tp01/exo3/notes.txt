@@ -1,0 +1,6 @@
+Méthode choisie pour organiser les valeurs :
+Tri croissant avec std::sort. Une fois triées, les deux valeurs les plus proches sont forcément voisines,
+il suffit donc de comparer chaque valeur avec la suivante (un seul parcours après le tri).
+Test personnel : 42 7 91 30 64 18 75 33
+Deux puissances les plus proches : 30 33
+Différence obtenue : 3
