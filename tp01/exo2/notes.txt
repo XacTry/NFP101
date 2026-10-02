@@ -1,0 +1,6 @@
+Méthode utilisée pour calculer une valeur absolue :
+Math.abs(t) de la bibliothèque standard Java (équivalent à : t < 0 ? -t : t).
+On compare les valeurs absolues; en cas d'égalité (ex : -5 et 5), on garde la plus grande valeur, donc la positive.
+Test personnel : -9 -6 -14 -3 -11 -7 -2 2 8
+Résultat attendu : 2
+Résultat obtenu : 2
