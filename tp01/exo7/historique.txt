@@ -1,0 +1,22 @@
+--- Question 1 : historique compact ---
+
+Commande utilisée :
+git log --pretty=format:"%h %an %s"
+
+Commits des exercices précédents :
+Exercice 1 (Q1) : b91ea9f
+Exercice 1 (Q2) : da9f48f
+Exercice 2 : 9d0e977
+Exercice 3 : 205d6a1
+Exercice 4 : be7845b
+Exercice 5 : d663646 (script) / 2b891b2 (tests)
+Exercice 6 : 9809703 (programme) / 83a8aa0 (notes)
+
+--- Question 2 : première version du programme Python ---
+
+Commit de la première version : d663646
+(Creation du script de l'exercice 5)
+Commande utilisée :
+git show d663646
+Cette commande affiche le message du commit et les lignes ajoutées dans hauteur_max.py,
+sans modifier les fichiers actuels du dossier.
