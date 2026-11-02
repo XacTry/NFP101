@@ -1,0 +1,17 @@
+Premier commit (première version Python) : d663646
+(Creation du script de l'exercice 5)
+
+Second commit (version avec statistiques) : 9809703
+(Modification de l'exo 5 pour l'exo 6)
+
+Commande utilisée :
+git diff d663646 9809703
+
+Principales différences observées :
+- Le dossier exo5 a été renommé en "exo5 et 6" (Git le détecte comme un renommage de hauteur_max.py).
+- Ajout de la fonction hauteur_minimale() qui parcourt la liste pour trouver la plus petite hauteur.
+- Ajout de la fonction hauteur_moyenne() qui calcule sum(hauteurs) / len(hauteurs).
+- L'affichage change : "Hauteur" et "Indice" sont remplacés par
+  hauteur minimale, hauteur maximale, indice de la hauteur maximale et hauteur moyenne (2 décimales).
+- La fonction hauteur_maximale() n'a pas changé.
+- notes.txt a aussi été complété avec la partie de l'exercice 6.
