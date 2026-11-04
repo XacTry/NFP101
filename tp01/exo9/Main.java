@@ -10,7 +10,8 @@ public class Main {
         for (int t : temperatures) {
             int ecartT = Math.abs(t);
             int ecartMeilleure = Math.abs(meilleure);
-            if (ecartT < ecartMeilleure || (ecartT == ecartMeilleure && t > meilleure)) {
+            if (ecartT < ecartMeilleure || (ecartT == ecartMeilleure && t < meilleure)) {
+ {
                 meilleure = t;
             }
         }
